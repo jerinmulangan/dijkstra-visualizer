@@ -41,6 +41,8 @@ arial.ttf
 ./DijkstraVisualizer.exe   #generates random walls & solves once
 ```
 
+![sample_plot](SFML3_Visualizer.png)
+
 The window shows:
 
 - **Green** start, **white** goal
@@ -71,20 +73,20 @@ After running, the script:
 2. Prints summary statistics
 3. Pops up a line chart of **elapsed ms** over run number
 
-Printed Statistics:
+### Printed Statistics
 
-Summary statistics
-       path_length  visited_nodes  elapsed_ms
-count          5.0       5.000000    5.000000
-mean         180.0   16107.000000   18.900000
-std            0.0      27.367864    0.341321
-min          180.0   16064.000000   18.550000
-25%          180.0   16099.000000   18.790000
-50%          180.0   16112.000000   18.830000
-75%          180.0   16130.000000   18.860000
-max          180.0   16130.000000   19.470000
+| Statistic | path_length | visited_nodes | elapsed_ms |
+| --------- | ----------: | ------------: | ---------: |
+| count     |         5.0 |      5.000000 |   5.000000 |
+| mean      |       180.0 |  16107.000000 |  18.900000 |
+| std       |         0.0 |     27.367864 |   0.341321 |
+| min       |       180.0 |  16064.000000 |  18.550000 |
+| 25%       |       180.0 |  16099.000000 |  18.790000 |
+| 50%       |       180.0 |  16112.000000 |  18.830000 |
+| 75%       |       180.0 |  16130.000000 |  18.860000 |
+| max       |       180.0 |  16130.000000 |  19.470000 |
 
-/Figure_1.png
+
 ![sample_plot](Figure_1.png)
 
 ---
